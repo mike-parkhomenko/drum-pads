@@ -1,0 +1,63 @@
+{
+	"sounds": {
+		"clap": {
+			"code": 65,
+			"kbd": "A",
+			"src": "./sounds/clap.wav"
+		},
+		"hihat": {
+			"code": 83,
+			"kbd": "S",
+			"src": "./sounds/hihat.wav"
+		},
+		"kick": {
+			"code": 68,
+			"kbd": "D",
+			"src": "./sounds/kick.wav"
+		},
+		"openhat": {
+			"code": 70,
+			"kbd": "F",
+			"src": "./sounds/openhat.wav"
+		},
+		"boom": {
+			"code": 71,
+			"kbd": "G",
+			"src": "./sounds/boom.wav"
+		},
+		"ride": {
+			"code": 72,
+			"kbd": "H",
+			"src": "./sounds/ride.wav"
+		},
+		"snare": {
+			"code": 74,
+			"kbd": "J",
+			"src": "./sounds/snare.wav"
+		},
+		"tom": {
+			"code": 75,
+			"kbd": "K",
+			"src": "./sounds/tom.wav"
+		},
+		"tink": {
+			"code": 76,
+			"kbd": "L",
+			"src": "./sounds/tink.wav"
+		}
+	},
+	"svg": {
+		"city": "./svg/city.svg",
+		"cloud-1": "./svg/cloud.svg",
+		"cloud-2": "./svg/cloud.svg",
+		"cloud-3": "./svg/cloud.svg",
+		"treble-clef": "./svg/treble-clef.svg",
+		"note-1": "./svg/note-1.svg",
+		"note-2": "./svg/note-2.svg",
+		"note-3": "./svg/note-3.svg",
+		"note-4": "./svg/note-4.svg",
+		"note-5": "./svg/note-5.svg",
+		"note-6": "./svg/note-6.svg",
+		"note-7": "./svg/note-7.svg"
+	}
+}
