@@ -1,0 +1,34 @@
+@import 'vars';
+
+.fade-appear {
+  opacity: 0;
+  z-index: 1;
+
+  &.fade-appear-active {
+    opacity: 1;
+    transition: all .3s $animate
+  }
+}
+
+.fade-enter {
+  opacity: 0;
+  z-index: 1;
+
+  &.fade-enter-active {
+    opacity: 1;
+    transition: all .3s $animate
+  }
+}
+
+.fade-exit {
+  opacity: 1;
+
+  &.fade-exit-active {
+    opacity: 0;
+    transition: opacity 0.3s $animate;
+  }
+}
+
+.fade-exit-done {
+  opacity: 0;
+}

@@ -1,0 +1,173 @@
+@import 'base';
+
+.App {
+  width: 100%;
+  height: 100%;
+}
+
+.main-screen {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+
+.keys {
+  display: flex;
+  justify-content: space-between;
+  align-self: center;
+  width: 55.572916666%;
+}
+
+.key {
+  display: flex;
+  flex-direction: column;
+  width: 7.778819119%;
+
+  .kbd {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 4.322916666vw;
+    background-color: $green;
+    border-radius: 0.78125vw;
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 2.8125vw;
+    text-transform: uppercase;
+    margin-bottom: 0.875vw;
+    cursor: pointer;
+    user-select: none;
+    transition: all .3s $animate;
+
+    &.pressed {
+      background-color: $black;
+      color: $green;
+      box-shadow: inset 0 0 0 0.3125vw $gray;
+      transition: all .1s $animate;
+    }
+  }
+
+  .sound {
+    font-family: Montserrat;
+    font-weight: normal;
+    font-size: 0.875vw;
+    text-transform: uppercase;
+    color: $green;
+    user-select: none;
+  }
+}
+
+#root {
+  width: 100%;
+  height: 100vh;
+  background-color: $black_2;
+}
+
+/**
+ * SVG Styles
+ */
+
+.images-layout {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+}
+
+.img {
+  display: block;
+  position: absolute;
+  left: 0;
+  width: 50px;
+}
+
+// .img:not(.cloud) {
+//   display: none;
+// }
+
+.city {
+  top: auto;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  fill: $green;
+}
+
+.treble-clef {
+  width: 8.385416666vw;
+  left: 8.020833333vw;
+  top: 1.25vw;
+}
+
+.cloud-1 {
+  width: 5.989583333vw;
+  left: 19.166666666vw;
+  top: 14.270833333vw;
+}
+
+.cloud-2 {
+  width: 7.916666666vw;
+  left: 42.96875vw;
+  top: 10.989583333vw; 
+}
+.cloud-3 {
+  width: 7.96875vw;
+  left: 75.989583333vw;
+  top: 13.125vw;
+}
+
+.note-1 {
+  width: 10.15625vw;
+  left: 45.833333333vw;
+  top: 0;
+}
+
+.note-2 {
+  width: 4.010416666vw;
+  left: 1.927083333vw;
+  top: 8.958333333vw;
+}
+
+.note-3 {
+  width: 2.708333333vw;
+  left: 30.15625vw;
+  top: 5.416666666vw;
+}
+
+.note-4 {
+  width: 1.979166666vw;
+  left: 44.947916666vw;
+  top: 9.427083333vw;
+}
+
+.note-5 {
+  width: 15.364583333vw;
+  left: 79.53125vw;
+  top: 6.145833333vw;
+}
+
+.note-6 {
+  width: 1.927083333vw;
+  left: 71.197916666vw;
+  top: 4.427083333vw;
+}
+
+.note-7 {
+  width: 1.979166666vw;
+  left: 77.96875vw;
+  top: 11.25vw;
+}
+
+.note-8 {
+  width: 1.197916666vw;
+  left: 97.395833333vw;
+  top: 9.166666666vw;
+}
+
+@import 'animation';
